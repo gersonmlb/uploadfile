@@ -1,9 +1,0 @@
-node_modules
-
-/.env
-.env
-
-src/public/uploads
-./src/public/uploads
-
-package-lock.json
