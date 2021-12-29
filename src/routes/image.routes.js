@@ -22,7 +22,6 @@ router.post('/images/upload', (req, res) => {
             err.message = 'The file is so heavy for my service';
             return res.send(err);
         }
-        console.log(req.file);
         res.send(process.env.URI_FILE + "/upload/" + req.file.originalname);
     });
 });
